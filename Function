@@ -1,7 +1,7 @@
 #function assignment
 
-include(reshape2)
-include(ggplot2)
+library(reshape2)
+library(ggplot2)
 
 Poll.Graph <- function(x)
 {
